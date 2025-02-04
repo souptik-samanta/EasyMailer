@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# EasyMailer
 
-## Getting Started
+Welcome to **EasyMailer**! This project is a powerful and simplified solution for sending automated emails. It comes with enterprise-grade features like bulk email sending, templated emails, OAuth2 support, and email analytics. Designed with love and attention to detail, this application is a blend of functionality and aesthetics.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 🚀 **Bulk Sending**: Effortlessly send emails in bulk to multiple recipients.
+- 🛡️ **OAuth2 Ready**: Secure your email sending operations with modern authentication protocols.
+- ✨ **Templates**: Use predefined email templates to streamline your workflow.
+- 📊 **Analytics**: Monitor and analyze the performance of your emails.
+- 🌙 **Dark Mode**: Switch between light and dark themes seamlessly.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+The project includes a demo where you can test the email sending functionality. You can:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- Enter a recipient email.
+- Select an email template (e.g., Welcome Email, Password Reset, Promotional Email).
+- Send a test email to see EasyMailer in action.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## Technologies Used
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **React.js**: Frontend framework used to build the interactive UI.
+- **Node.js**: Backend framework for handling email operations.
+- **Tailwind CSS**: For styling the components with utility-first CSS.
+- **Lucide Icons**: To enhance the UI with modern icons.
+- **Framer Motion**: For smooth animations and transitions.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+Update the backend server details if needed and configure environment variables like `EMAIL` and `PASSWORD` for authentication.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Acknowledgements
 
-## Deploy on Vercel
+This project uses the **Wavy Background** component from [Aceternity's UI Components](https://ui.aceternity.com/components/wavy-background). Special thanks to the creators for providing such an elegant design element that enhances the visual appeal of this application.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+### Made with ❤️ by [Souptik Samanta](https://souptik.me)
+
+
+
